@@ -11,9 +11,9 @@ This Node module works together with Google Sheets API and is targeted maintaini
 - Copy the ```client_secret.json``` to the root folder
 - Run ```npm install```
 - Create a Google Sheet and name the sheet tab at the bottom of the sheet to ```Translations```
+- Add the default language JSON file in the files folder and create empty JSON files for each language needed.
 - Change the ```config.js``` file to the appropriate data
 - Run ```npm run setup``` , and follow the guide.
-- Place your default language JSON file in the files folder
 - Run ```npm run start``` to launch the application
 - 1st time you start run option 2 to update the Google Sheets doc
 
