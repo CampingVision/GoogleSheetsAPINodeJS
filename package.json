@@ -1,0 +1,16 @@
+{
+  "name": "googlesheets",
+  "version": "1.0.0",
+  "description": "This is to test the google sheets api",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node quickstart",
+    "start": "node translate"
+  },
+  "author": "Dennis Rønnebæk",
+  "license": "MIT",
+  "dependencies": {
+    "flat": "^4.0.0",
+    "googleapis": "^27.0.0"
+  }
+}
