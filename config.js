@@ -10,7 +10,7 @@ const config = {
         sheetId: 0,
         // Set the default value for the empty cells
         reserved: '-/-',
-        // Defined all the columns from the google sheet, column a should be the json attributes
+        // Define all the columns from the Google sheet, column a should be the json attributes e.g. ['A', 'B']
         columns: []
     },
     files: {
@@ -18,9 +18,9 @@ const config = {
         path: __dirname + '\\files\\',
         // Define default encoding
         encoding: 'uft-8',
-        // Defined default language file
+        // Defined default language file with ISO standard plus .json e.g. 'en.json'
         default: '',
-        // Make sure that the languages matches up to the columns and the first language is the default
+        // Make sure that the languages matches up to the columns and the first language is the default e.g. ['en.json', 'de.json']
         files: []
     },
 };
